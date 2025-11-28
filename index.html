@@ -15,125 +15,141 @@
         <div class="piano">
             <div class="piano-body">
                 <div class="speaker"><img src="./img/speaker.webp" alt="welcome"></div>
-                <div class="display"> <div class="menu"></div><textarea autofocus></textarea></div>
+                <div class="display">
+                    <div class="menu">
+                        <h2 onclick=textToNotes()>🔤</h2>
+                        <h2 onclick=notesToText()>🎵</h2>
+                        <h2 onclick=displayText()>🅱️</h2>
+                        <h2 onclick=displayNotes()>🎼</h2>
+                    </div>
+                    <input autofocus type="text" value=" ">
+                </div>
                 <div class="speaker"><img src="./img/speaker.webp" alt="welcome"></div>
             </div>
             <div class="piano-keys">
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                
 
-<div class="line"></div>
+                <!-- one octave -->
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
 
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                
-                <div class="line"></div>
-                            
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
 
-                <div class="line"></div>
-                
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+                <!-- one  octave complete -->
 
-                <div class="line"></div>
-                
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
+                <!-- second octave -->
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
 
-                <div class="line"></div>
-                           
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
 
-                <div class="line"></div>
-                
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+                <!-- second  octave complete -->
 
-                <div class="line"></div>
-                          
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                <div class="black-key">
-                    <div class="line"></div>
-                </div>
-                <div class="white-key"></div>
-                
-             
-    
-                  
-                </div>
+
+                <!-- third octave -->
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+
+
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+                <!-- third  octave complete -->
+
+
+                <!-- forth octave -->
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+
+
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+                <!-- forth  octave complete -->
+
+                <!-- fivth octave -->
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+
+
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+                <!-- fivth  octave complete -->
+
+                <!-- sixth octave -->
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+
+
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+                <!-- sixth  octave complete -->
+
+                <!-- seven octave -->
+                <!-- <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div>
+
+
+                <div class="wlkey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wckey key"></div>
+                <div class="bkey key"></div>
+                <div class="wrkey key"></div> -->
+
+
+                <!-- seven  octave complete -->
             </div>
         </div>
 
